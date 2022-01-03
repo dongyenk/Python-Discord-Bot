@@ -5,5 +5,5 @@ Work in progress Discord bot made in the Python programming language.
 
 ***.env*** contains some environmental variables
 
-***example.png*** shows the bot working
+***example_images*** shows the bot working
 
