@@ -11,7 +11,7 @@ load_dotenv() # loads data from .env file in local directory, which contains # D
 TOKEN = os.getenv('DISCORD_TOKEN') # returns value corresponding to the environmental variable argument given in the string
 GUILD = os.getenv('DISCORD_GUILD')
 
-# looking at discord.py docs, creating this subclass makes more sense to me # 2 ways to register events are to use discord.Client.event, or to create a discord.Client subclass
+# looking at discord.py docs, creating this subclass makes more sense to me # 2 ways to register events are to use the discord.Client.event decorator, or to create a discord.Client subclass
 class MyClient(discord.Client): # creating a subclass. Can't use code directly, must create a class instance first.		
 	async def on_ready(self): # functions seem to take the class itself as default argument
 		# for loop to get guild variable to contain active guild
