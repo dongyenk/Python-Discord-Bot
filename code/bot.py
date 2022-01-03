@@ -60,7 +60,7 @@ class MyClient(discord.Client): # creating a subclass. Can't use code directly, 
 			await message.channel.send( text ) # function is from discord.Message.TextChannel.send		
 			await message.channel.send( image ) # sending both in 1 function causes link to be visible
 
-		elif "raise exception" in message.content:
+		elif "raise exception test" in message.content:
 			raise discord.DiscordException # when exception raised, discord.MyClient.on_error is called. Can let bot crash, or overwrite the function to handle this
 
 	async def on_error(self, event, *args, **kwargs):
