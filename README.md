@@ -1,5 +1,5 @@
 # Python-Discord-Bot
-Working Discord bot made in the Python programming language.
+Responds to any mention of "ratlord".
 
 ***bot.py*** contains the bot's code
 
