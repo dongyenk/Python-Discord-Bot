@@ -2,10 +2,11 @@
 import os # provides OS dependent functionality, such returning value from environmental variable key-value pair
 
 import discord # discord API wrapper, makes Discord API easy to use
-# Updated to make bot use discord.ext.commands.Bot instead of discord.Client
 
 from dotenv import load_dotenv # load environmental variables from local .env file
+
 import random
+
 from sys import exc_info # to write more information to err.log
 
 # Looked at discordpy.readthedocs.io, docs.python.org, pypi.org to understand what these modules and functions do
@@ -74,7 +75,7 @@ class MyClient(discord.Client):
 			else:
 				raise # raise exception in default way, unless error came from an on_message event
 
-client = MyClient()
+client = MyClient() # creating an instance of the subclass, so I can use it
 
 client.run(TOKEN)  # starts loop that listens for events and calls the async def coroutine event functions
 
