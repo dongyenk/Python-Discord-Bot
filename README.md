@@ -7,3 +7,4 @@ Responds to any mention of "ratlord".
 
 ***example_images*** shows the bot working
 
+***images*** contains images used by the bot
