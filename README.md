@@ -20,7 +20,7 @@ Uses discord.ext.comamnds.Bot instead of discord.Client and responds to commands
 !help, !helpp, !ratlord, !rolld
 ___________________________________________________________________________________________________
 
-***.env*** contains some environmental variables
+***.env*** contains some environmental variables required by the bot.
 
 ***example_images*** shows the bot working
 
