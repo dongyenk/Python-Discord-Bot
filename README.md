@@ -28,6 +28,8 @@ ________________________________________________________________________________
 
 ***.env*** contains some environmental variables required by the bot.
 
+***eng_to_morse.py*** has code needed by new_bot.py
+
 ***example_images*** shows the bot working
 
 ***images*** contains images used by the bot
