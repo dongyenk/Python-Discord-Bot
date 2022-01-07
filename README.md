@@ -9,7 +9,8 @@ Uses discord.Client and responds to events.
 
 ## ***new_bot.py*** contains the newer version of the bot.
 
-It only responds to commands, that must begin with !. Inputting !help into discord makes the bot give instructions.
+It only responds to commands, that must begin with '!' 
+Inputting !help into discord makes the bot give instructions.
 
 Uses discord.ext.comamnds.Bot instead of discord.Client and responds to commands.
 ___________________________________________________________________________________________________
