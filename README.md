@@ -23,7 +23,7 @@ I added code to let the bot encode strings of letters and spaces into morse. Scr
 
 ### Useful commands of new_bot:
 
-!help, !helpp, !ratlord, !rolld
+!help, !helpp, !ratlord, !rolld, !eng2morse
 ___________________________________________________________________________________________________
 
 ***.env*** contains some environmental variables required by the bot.
