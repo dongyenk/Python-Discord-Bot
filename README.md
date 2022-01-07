@@ -3,17 +3,23 @@
 
 ## ***bot.py*** contains the older version of the bot.
 
+It only uses bot.py
+
 It responds to general events, specifically any message containing "ratlord"
 
 Uses discord.Client and responds to events.
 
 ## ***new_bot.py*** contains the newer version of the bot.
 
+Must have new_bot.py & eng_to_morse.py in same directory!
+
 It only responds to commands, that must begin with '!' 
 
 Inputting !help into discord makes the bot give instructions.
 
 Uses discord.ext.commands.Bot instead of discord.Client and responds to commands.
+
+I added code to let the bot encode strings of letters and spaces into morse. Screen shot of this in example_images.
 
 ### Useful commands of new_bot:
 
